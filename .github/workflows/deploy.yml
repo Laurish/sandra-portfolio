@@ -1,33 +1,26 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
     branches: [main]
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-
+      - uses: actions/checkout@v4.2.2
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-
+          node-version: 24
       - name: Install dependencies
         run: npm install
-
       - name: Build
         run: npm run build
-
       - name: Fix base path in index.html
         run: |
           sed -i 's|src="/assets/|src="/sandra-portfolio/assets/|g' dist/index.html
           sed -i 's|href="/assets/|href="/sandra-portfolio/assets/|g' dist/index.html
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
