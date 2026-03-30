@@ -1,11 +1,5 @@
 import { motion } from "framer-motion";
-import { Headphones, GraduationCap, Sparkles } from "lucide-react";
-
-const stats = [
-  { icon: GraduationCap, label: "Higher Education", value: "2 Years" },
-  { icon: Headphones, label: "Audio Projects", value: "30+" },
-  { icon: Sparkles, label: "Passion for Sound", value: "∞" },
-];
+import sandraImg from "../assets/sandra.jpg";
 
 const AboutSection = () => {
   return (
@@ -36,24 +30,19 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <div className="grid gap-6">
-            {stats.map((stat, i) => (
-              <motion.div
-                key={stat.label}
-                initial={{ opacity: 0, x: 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.15 }}
-                className="flex items-center gap-6 p-6 bg-card rounded-sm border border-border hover:border-primary/30 transition-colors"
-              >
-                <stat.icon className="w-8 h-8 text-primary flex-shrink-0" />
-                <div>
-                  <p className="text-2xl font-bold text-foreground">{stat.value}</p>
-                  <p className="text-sm text-muted-foreground font-mono">{stat.label}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="border border-border hover:border-primary transition-colors rounded-sm overflow-hidden"
+          >
+            <img
+              src={sandraImg}
+              alt="Sandra Andriainen"
+              className="w-full h-full object-cover block"
+            />
+          </motion.div>
         </motion.div>
       </div>
     </section>
