@@ -19,7 +19,7 @@ const ContactSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="flex flex-row justify-center gap-8 md:gap-16 mb-16 flex-wrap"
+          className="grid grid-cols-3 gap-8 mb-16 items-start"
         >
           {[
             { icon: Mail, label: "Email", value: "sandriainen@gmail.com", href: "mailto:sandriainen@gmail.com" },
