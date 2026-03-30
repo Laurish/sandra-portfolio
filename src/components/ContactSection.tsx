@@ -30,9 +30,9 @@ const ContactSection = () => {
               <item.icon className="w-6 h-6 text-primary mx-auto" />
               <p className="font-mono text-xs uppercase tracking-wider text-muted-foreground">{item.label}</p>
               {item.href ? (
-                <a href={item.href} className="text-foreground hover:text-primary transition-colors">{item.value}</a>
+                <a href={item.href} className="text-foreground hover:text-primary transition-colors whitespace-nowrap">{item.value}</a>
               ) : (
-                <p className="text-foreground">{item.value}</p>
+                <p className="text-foreground whitespace-nowrap">{item.value}</p>
               )}
             </div>
           ))}
