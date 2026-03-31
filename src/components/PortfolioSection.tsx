@@ -4,19 +4,11 @@ import { ChevronDown } from "lucide-react";
 
 const projects = [
   {
-    title: "Junior-SM 2025 i Tyngdlyftning",
-    description: "13–14 december på Arena Jernvallen",
+    title: "Junior Swedish Championships 2025 in Weightlifting",
+    description: "13–14 December at Arena Jernvallen",
     role: "Filming · Editing · Sound Design",
     genre: "Sport",
     youtubeId: "N1Nl3iyWxNc",
-    isShort: false,
-  },
-  {
-    title: "Eddie Bergund & SBD",
-    description: "Filming, Klippning & Ljuddesign",
-    role: "Filming · Editing · Sound Design · Mix & Master",
-    genre: "Commercial",
-    youtubeId: "bTAcdVUa0yM",
     isShort: false,
   },
   {
