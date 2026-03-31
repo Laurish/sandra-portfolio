@@ -4,7 +4,7 @@ import { Mail, MapPin, Instagram } from "lucide-react";
 const ContactSection = () => {
   return (
     <section id="contact" className="section-padding bg-card/50">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -19,7 +19,7 @@ const ContactSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="grid grid-cols-3 gap-8 mb-16"
+          className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16"
         >
           {[
             { icon: Mail, label: "Email", value: "sandriainen@gmail.com", href: "mailto:sandriainen@gmail.com" },
