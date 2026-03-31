@@ -49,7 +49,7 @@ const HeroSection = () => {
             Sound design for film, video, and digital content. Focused on immersive and emotionally driven audio.
           </p>
 
-          <motion.div
+<motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.6 }}
