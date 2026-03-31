@@ -49,19 +49,19 @@ const HeroSection = () => {
             Sound design for film, video, and digital content. Focused on immersive and emotionally driven audio.
           </p>
 
-<motion.div
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center pt-4"
           >
-            
+            <a
               href="#portfolio"
               className="inline-flex items-center justify-center px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-sm hover:opacity-90 transition-opacity"
             >
               Hear My Work
             </a>
-            
+            <a
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-3 border border-border text-foreground font-semibold rounded-sm hover:border-primary hover:text-primary transition-colors"
             >
