@@ -5,22 +5,22 @@ const services = [
   {
     icon: Sliders,
     title: "Mixing",
-    description: "Balancing every element to create a polished, cohesive sound that translates across all playback systems.",
+    description: "I balance every sound to create a smooth, cohesive mix that sounds great no matter where it's played.",
   },
   {
     icon: Disc3,
     title: "Mastering",
-    description: "Final polish and loudness optimization, ensuring your tracks are release-ready for any platform.",
+    description: "I deliver tracks with the final polish – making sure volume, tone, and clarity are just right, and adjusted to meet platform loudness standards, such as YouTube, Instagram, broadcast, and others.",
   },
   {
     icon: Film,
     title: "Sound Design",
-    description: "Creating immersive sonic worlds for film, games, and multimedia — from foley to atmospheric textures.",
+    description: "I create immersive sound worlds for film, video, and multimedia – from foley and effects to atmospheric textures.",
   },
   {
     icon: Radio,
     title: "Audio Production",
-    description: "Complete audio post-production for video content, podcasts, and multimedia — dialogue editing, sound enhancement, and final mix.",
+    description: "I take care of all the audio behind your project – cleaning up dialogue, enhancing sound, and mixing everything, whether it's for video, radio, podcasts, movies, or multimedia.",
   },
 ];
 

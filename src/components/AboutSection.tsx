@@ -15,17 +15,20 @@ const AboutSection = () => {
           <div className="space-y-6">
             <p className="font-mono text-xs tracking-[0.3em] uppercase text-primary">About</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-tight">
-              Every sound tells a story. I make sure it's heard.
+              Sound is a key part of how stories are felt, not just heard.
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Based in Stockholm, Sweden, I specialize in sound design and audio production
-                for film, games, and multimedia projects. My approach blends technical precision
-                with creative intuition.
+                I create immersive and detailed audio that supports emotion, rhythm, and atmosphere in every project.
               </p>
               <p>
-                Fresh out of 2 years of higher education in audio production, I bring fresh perspectives,
-                modern techniques, and dedicated energy to every project that comes my way.
+                Based in Stockholm and Sandviken, I work with sound design for film, video, and digital content. My work includes everything from creative sound design to mixing and preparing audio for final delivery.
+              </p>
+              <p>
+                With five years of experience in audio production, including three years of formal studies, I bring fresh ideas, modern workflows, and a strong ambition to grow with every project.
+              </p>
+              <p>
+                Check out some of my previous work.
               </p>
             </div>
           </div>

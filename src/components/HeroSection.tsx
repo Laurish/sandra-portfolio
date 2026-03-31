@@ -12,7 +12,6 @@ const WaveformBar = ({ delay }: { delay: number }) => (
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
       <div className="absolute inset-0">
         <img
           src={heroImg}
@@ -23,7 +22,6 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-background/40" />
       </div>
 
-      {/* Content */}
       <div className="relative z-10 text-center section-padding max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -41,7 +39,6 @@ const HeroSection = () => {
             <span className="text-primary text-glow">Andriainen</span>
           </h1>
 
-          {/* Waveform animation */}
           <div className="flex items-center justify-center gap-1 py-6">
             {[0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1].map((delay, i) => (
               <WaveformBar key={i} delay={delay} />
@@ -49,8 +46,7 @@ const HeroSection = () => {
           </div>
 
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-            Crafting sonic landscapes for artists, film, and brands.
-            Over 10 years shaping sound that moves people.
+            Sound design for film, video, and digital content. Focused on immersive and emotionally driven audio.
           </p>
 
           <motion.div
@@ -59,13 +55,13 @@ const HeroSection = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center pt-4"
           >
-            <a
+            
               href="#portfolio"
               className="inline-flex items-center justify-center px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-sm hover:opacity-90 transition-opacity"
             >
               Hear My Work
             </a>
-            <a
+            
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-3 border border-border text-foreground font-semibold rounded-sm hover:border-primary hover:text-primary transition-colors"
             >
